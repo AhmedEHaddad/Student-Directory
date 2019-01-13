@@ -1,11 +1,14 @@
-**Intro:**
+#Student Directory in c++
+
+##Intro:
 
 This project is done as part of the ALGORITHMS&PROGRAMMING course for my undergraduate studies.
 
 
 
 
-*Details of requirement:*
+##Details of requirement:
+
 Write a complete C++ program to implement a student directory. Structure contains name, student id, registration date and cgpa. Your program should have the following menu. Write necessary functions for the menu:
 
 Menu:
@@ -21,7 +24,7 @@ Menu:
 	B – According to cgpa  
 7- Quit
 
-struct date
+    struct date
        {
        int day, month, year;
        };
@@ -31,10 +34,12 @@ struct date
        int ID;
        struct date reg_date; 
        float CGPA;
-       }std_directory[100];
+       }std_directory[100];`
 Important notes:
-•	Write a user defined function for each menu option.
+
+•Write a user defined function for each menu option.
 
 
-*License*
+##License:
+
 MIT
